@@ -51,7 +51,9 @@ h3 {
 p {
   display: flex;
   justify-content: center;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serifs;
+  font-family: monospace;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 .right {
@@ -102,7 +104,7 @@ p {
   .y,
   .x {
     box-shadow: 5px 0px 0px 5px rgb(5, 168, 119);
-    width: 400px;
+    width: 500px;
     background-image: linear-gradient(
       to right,
       rgb(255, 255, 255),
