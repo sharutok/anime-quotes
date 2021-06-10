@@ -47,14 +47,11 @@ body {
 h3 {
   text-align: right;
 }
-@font-face {
-  font-family: "ZCOOL KuaiLe", cursive;
-  src: url("https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap");
-}
+
 p {
   display: flex;
   justify-content: center;
-  font-family: "ZCOOL KuaiLe", cursive;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serifs;
 }
 
 .right {
@@ -105,7 +102,7 @@ p {
   .y,
   .x {
     box-shadow: 5px 0px 0px 5px rgb(5, 168, 119);
-    width: 500px;
+    width: 400px;
     background-image: linear-gradient(
       to right,
       rgb(255, 255, 255),
